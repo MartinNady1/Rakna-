@@ -1,6 +1,6 @@
 # Rakna - Parking Management System
 
-Rakana is a comprehensive parking management system developed as a graduation project. The system is designed to facilitate the management of parking spaces, reservations, and user interactions for various users including drivers, garage staff, and system administrators. The backend API is built using .NET Core, Entity Framework, SQL Database, SignalR, Serilog, Repository Pattern, Unit of Work, and follows a 3-Tier Architecture.
+Rakna is a comprehensive parking management system developed as a graduation project. The system is designed to facilitate the management of parking spaces, reservations, and user interactions for various users including drivers, garage staff, and system administrators. The backend API is built using .NET Core, Entity Framework, SQL Database, SignalR, Serilog, Repository Pattern, Unit of Work, and follows a 3-Tier Architecture.
 
 ## Table of Contents
 
