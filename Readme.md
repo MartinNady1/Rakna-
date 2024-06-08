@@ -114,12 +114,6 @@ The project follows a 3-Tier Architecture:
 ![Employees Page](5.png)
 
 ## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add some feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Open a pull request.
+made by Rakna backend team 
+1- Martin Nady
+2-Mohamed Abdulsayed
