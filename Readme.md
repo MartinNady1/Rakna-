@@ -1,4 +1,4 @@
-# Rakana - Parking Management System
+# Rakna - Parking Management System
 
 Rakana is a comprehensive parking management system developed as a graduation project. The system is designed to facilitate the management of parking spaces, reservations, and user interactions for various users including drivers, garage staff, and system administrators. The backend API is built using .NET Core, Entity Framework, SQL Database, SignalR, Serilog, Repository Pattern, Unit of Work, and follows a 3-Tier Architecture.
 
@@ -22,7 +22,7 @@ Rakana is a comprehensive parking management system developed as a graduation pr
 
 ## Project Description
 
-Rakana aims to provide a seamless and efficient way for managing parking-related operations, including space allocation, reservations, real-time tracking of parking sessions, and handling complaints. The system is intended to be used by drivers, garage staff, and system administrators to ensure smooth and organized management of parking facilities.
+Rakana aims to provide a seamless and efficient way to manage parking-related operations, including space allocation, reservations, real-time tracking of parking sessions, and handling complaints. The system is intended to be used by drivers, garage staff, and system administrators to ensure smooth and organized management of parking facilities.
 
 ## Features
 
@@ -298,19 +298,19 @@ The project follows a 3-Tier Architecture:
 ## Screenshots
 
 ### Dashboard Page for System Admin
-![Dashboard Page](https://your-image-link/dashboard_page.png)
+![Dashboard Page](1.png)
 
 ### Dashboard Page for Staff Users
-![Dashboard Page for Staff](https://your-image-link/staff_dashboard.png)
+![Dashboard Page for Staff](2.png)
 
 ### Managing Drivers Page
-![Managing Drivers Page](https://your-image-link/managing_drivers.png)
+![Managing Drivers Page](3.png)
 
 ### Complaints Page
-![Complaints Page](https://your-image-link/complaints_page.png)
+![Complaints Page](4.png)
 
 ### Employees Page
-![Employees Page](https://your-image-link/employees_page.png)
+![Employees Page](5.png)
 
 ## Installation
 
