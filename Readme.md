@@ -116,5 +116,5 @@ The project follows a 3-Tier Architecture:
 ## Contributing
 This project is maintained by the Rakna backend team. Special thanks to our dedicated contributors:
 
-Martin Nady
-Mohamed Abdulsayed
+- **Martin Nady**<br>
+- **Mohamed Abdulsayed**
