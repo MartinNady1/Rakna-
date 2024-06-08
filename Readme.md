@@ -15,10 +15,7 @@ Rakana is a comprehensive parking management system developed as a graduation pr
   - [Report Endpoints](#report-endpoints)
   - [Technical Support Endpoints](#technical-support-endpoints)
 - [Screenshots](#screenshots)
-- [Installation](#installation)
-- [Configuration](#configuration)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Project Description
 
