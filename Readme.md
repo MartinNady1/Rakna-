@@ -114,6 +114,7 @@ The project follows a 3-Tier Architecture:
 ![Employees Page](5.png)
 
 ## Contributing
-made by Rakna backend team 
-1- Martin Nady
-2-Mohamed Abdulsayed
+This project is maintained by the Rakna backend team. Special thanks to our dedicated contributors:
+
+Martin Nady
+Mohamed Abdulsayed
