@@ -312,32 +312,6 @@ The project follows a 3-Tier Architecture:
 ### Employees Page
 ![Employees Page](5.png)
 
-## Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/rakana-backend.git
-    cd rakana-backend
-    ```
-
-2. Set up the database:
-    - Ensure you have SQL Server installed and running.
-    - Update the connection string in `appsettings.json`.
-
-3. Run the migrations to set up the database schema:
-    ```bash
-    dotnet ef database update
-    ```
-
-4. Run the application:
-    ```bash
-    dotnet run
-    ```
-
-## Configuration
-
-The application settings can be configured in `appsettings.json`. Update the connection strings and other settings as needed.
-
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
@@ -348,7 +322,3 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 4. Commit your changes (`git commit -m 'Add some feature'`).
 5. Push to the branch (`git push origin feature-branch`).
 6. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
