@@ -6,7 +6,6 @@ Rakna is a comprehensive parking management system developed as a graduation pro
 
 - [Project Description](#project-description)
 - [Features](#features)
-- [System Requirements](#system-requirements)
   - [System Features](#system-features)
   - [Technical Support Features](#technical-support-features)
   - [Customer Service Features](#customer-service-features)
