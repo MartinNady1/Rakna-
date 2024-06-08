@@ -1,2 +1,0 @@
-# Rakna-
-Graduation project 
