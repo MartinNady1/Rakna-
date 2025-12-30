@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garage Statistics Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .email-container {
+            max-width: 600px;
+            margin: auto;
+            background-color: #ffffff;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .main-content {
+            padding: 20px;
+            text-align: left;
+        }
+
+            .main-content h1 {
+                color: #333333;
+                text-align: center;
+            }
+
+        .statistics-item {
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            padding-top: 20px;
+            font-size: 12px;
+            text-align: center;
+            color: #999999;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="header">
+            <h2>Monthly Garage Statistics Report</h2>
+        </div>
+        <div class="main-content">
+            <h1>Overview of Statistics</h1>
+            <div class="statistics-item"><strong>Average Parking Duration:</strong> {AverageDuration}</div>
+            <div class="statistics-item"><strong>Total Revenue:</strong> {TotalRevenue}</div>
+            <div class="statistics-item"><strong>Total Reservations:</strong> {TotalReservations}</div>
+            <div class="statistics-item"><strong>Total Salary Paid:</strong> {TotalSalaryPaid}</div>
+            <div class="statistics-item"><strong>Staff Activity Rating:</strong> {StaffActivityRating}</div>
+            <div class="statistics-item"><strong>Complaints Statistics:</strong> {ComplaintsStatistics}</div>
+            <div class="statistics-item"><strong>Peak Parking Hours:</strong> {PeakParkingHours}</div>
+            <div class="statistics-item"><strong>Reserved vs. Non-Reserved Parking Usage:</strong> {ReservedVsNonReservedParkingUsage}</div>
+        </div>
+        <div class="footer">
+            <p>Thank you for your commitment,</p>
+            <p>Rakna Management Team</p>
+        </div>
+    </div>
+</body>
+</html>

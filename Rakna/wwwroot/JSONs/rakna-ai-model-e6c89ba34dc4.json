@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "rakna-ai-model",
+  "private_key_id": "e6c89ba34dc4737b8a533a3f2b4b4a2345ec3fa5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDWRvg7cH2tLoUe\nz/LHxR0/U74diZQhYIuJDkJeEFMTT833AvYxPuS2mMYXuFFvkbj8CBP1/aRPkAZk\nAzw3nQmTLZZQ3i7CD09tsFpDJVKBaT84Mh4DPvM3bG81DOmoQkseMaQZQt9vFsNB\nWcd5kE0wrXrZGUoN7F3sc22/mX9g8QUUKdfhCXPlGZ8PcfvofNtevHhI0solEmin\nHs8Wi16pEc12bTHOXlgNf8+BHg1cOz1HiLzKA0qzo85LEITacUfREraf8CdzrL6G\n66kDzlZQhCROFhlOwzoK8YMQDcrmssaln7BvWn0kArfy1Lk+dBaGeXor17HYFZPM\njpq0u9HnAgMBAAECggEAEauGKn10suSHlpDjazuDO+1CwkDNwsR2MHX8Kks1iDD0\n9SewK0N0E0xQTM7Z64kCzi9qv5OMPZtmfrZ3L5OqbhHWUXjhAwb4/KMMVN+UPDCO\nEnffjbj4aY7Uy0HzV5LDJKXg65kq8u6kaPrN8X8uCy0v8kADOvHnYbZRfvlZ51Te\n+gqUXoKsWvdCDFNegwHVpChKWTgMGdETjk/sebbCKP0sf0BSzM0TSiPDg6gVhaHr\nqXuErOe0AXoSHU4dmixz/KnGNExOtfAYO2Gq+57gJahuTsUNQ7cIW/K5ZGX7RGxD\nWFp+6BZgktz8jrC2xOHHbQKg0XnljkLtopU50tUaUQKBgQDxg5wpW2xKT5ytGpQG\ni7/sGYlYMDEXpE1qH4sxNKkxGuwR0cCVfCMox+9sOBr40O9fmozeYEi2Z9rjtyI3\nEwKp3yCRqIzpRWg/jW6rLD4bLXhZ5YZvbq1lbMEVpQHBq0ynJ15P/V1t6yJr1Oaj\njzAUNt+O+DgeWgPGhAkuuN1vnQKBgQDjISTh6a7pxE6IUyiXSfasyKkusKqxEcan\nSUhqIofmIpNxzbawM2P5cOxDBq1ElussFwPgSabUqWaiy9piiCUOGXZ4gKg9aUUY\nIh3R4S0vMZIEPHtP87Np4MHhg2fCBurmOTfX4byursAm4aK31nYI7JQ0aPIZv0OU\n+bctff6KUwKBgHk2UJ4BIGx7YGsQt9JBOWXJu0DjjwAKmj/07OsZPwFCPdEDsOBV\nmV/SWLu7vO28DyewbZr+QAAsR5OaSjXR+LhBIBt6uJ4rE5Mx7KVEYzdIruqPY9Vx\net04o/+0/RiyXJpYC+Ghi86rAG+WPts/9iVvFOywb5nsG5D6m5Ezfw+RAoGAGuIY\naHjtUBQBK5eULVv+y3Kwu6sDeRPejHxbCtztcurSwtyTbAWZJrQb8s7+gSjPyxcq\nSUjOa0tlr40rWxA8Oo/++sJXp3UnTXT0TJw3aeeXHdM+0TbKHJUSvat9A3UoJnnN\nR0sbtx1N9wwr41CKBgJihFWLmkqOKDrqWIMaNqsCgYEAktlGEFZMef3ZDWupXbrJ\nHI21zits8Yzd7CJbG2FvFlHQhf88tY7YJg/PiSp8eN3wutraY89e+f+C6oM3S1rR\nY+A/Rr35JMrXutJS2wEklaKw3/5kOupOiAs0loSoiuP+NKsTPClHAzQRdhZgVLH/\n4c9p0Y09ewmhslKbs2i9Jo0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "mohammed321735-translate@rakna-ai-model.iam.gserviceaccount.com",
+  "client_id": "106602753460950379899",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mohammed321735-translate%40rakna-ai-model.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

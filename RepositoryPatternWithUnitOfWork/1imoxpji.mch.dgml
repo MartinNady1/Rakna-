@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Database" Label="Rakna_db" Category="Database" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="dbo" Label="dbo" Category="Schema" Group="Expanded" />
+    <Node Id="AspNetRoleClaims" Label="AspNetRoleClaims" Category="Table" Group="Collapsed" />
+    <Node Id="AspNetRoleClaims_Id" Label="Id int" Category="PK" Description="int" />
+    <Node Id="AspNetRoleClaims_RoleId" Label="RoleId nvarchar(450)" Category="FK" Description="nvarchar(450)" />
+    <Node Id="AspNetRoleClaims_ClaimType" Label="ClaimType nvarchar(max)" Category="NULL" Description="nvarchar(max)" />
+    <Node Id="AspNetRoleClaims_ClaimValue" Label="ClaimValue nvarchar(max)" Category="NULL" Description="nvarchar(max)" />
+    <Node Id="AspNetRoles" Label="AspNetRoles" Category="Table" Group="Collapsed" />
+    <Node Id="AspNetRoles_Id" Label="Id nvarchar(450)" Category="PK" Description="nvarchar(450)" />
+    <Node Id="AspNetRoles_Name" Label="Name nvarchar(256)" Category="NULL" Description="nvarchar(256)" />
+    <Node Id="AspNetRoles_NormalizedName" Label="NormalizedName nvarchar(256)" Category="NULL" Description="nvarchar(256)" />
+    <Node Id="AspNetRoles_ConcurrencyStamp" Label="ConcurrencyStamp nvarchar(max)" Category="NULL" Description="nvarchar(max)" />
+    <Node Id="AspNetUserClaims" Label="AspNetUserClaims" Category="Table" Group="Collapsed" />
+    <Node Id="AspNetUserClaims_Id" Label="Id int" Category="PK" Description="int" />
+    <Node Id="AspNetUserClaims_UserId" Label="UserId nvarchar(450)" Category="FK" Description="nvarchar(450)" />
+    <Node Id="AspNetUserClaims_ClaimType" Label="ClaimType nvarchar(max)" Category="NULL" Description="nvarchar(max)" />
+    <Node Id="AspNetUserClaims_ClaimValue" Label="ClaimValue nvarchar(max)" Category="NULL" Description="nvarchar(max)" />
+    <Node Id="AspNetUserLogins" Label="AspNetUserLogins" Category="Table" Group="Collapsed" />
+    <Node Id="AspNetUserLogins_LoginProvider" Label="LoginProvider nvarchar(450)" Category="PK" Description="nvarchar(450)" />
+    <Node Id="AspNetUserLogins_ProviderKey" Label="ProviderKey nvarchar(450)" Category="PK" Description="nvarchar(450)" />
+    <Node Id="AspNetUserLogins_ProviderDisplayName" Label="ProviderDisplayName nvarchar(max)" Category="NULL" Description="nvarchar(max)" />
+    <Node Id="AspNetUserLogins_UserId" Label="UserId nvarchar(450)" Category="FK" Description="nvarchar(450)" />
+    <Node Id="AspNetUserRoles" Label="AspNetUserRoles" Category="Table" Group="Collapsed" />
+    <Node Id="AspNetUserRoles_UserId" Label="UserId nvarchar(450)" Category="PK" Description="nvarchar(450)" />
+    <Node Id="AspNetUserRoles_RoleId" Label="RoleId nvarchar(450)" Category="PK" Description="nvarchar(450)" />
+    <Node Id="AspNetUsers" Label="AspNetUsers" Category="Table" Group="Collapsed" />
+    <Node Id="AspNetUsers_Id" Label="Id nvarchar(450)" Category="PK" Description="nvarchar(450)" />
+    <Node Id="AspNetUsers_FullName" Label="FullName nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="AspNetUsers_UserName" Label="UserName nvarchar(256)" Category="NULL" Description="nvarchar(256)" />
+    <Node Id="AspNetUsers_NormalizedUserName" Label="NormalizedUserName nvarchar(256)" Category="NULL" Description="nvarchar(256)" />
+    <Node Id="AspNetUsers_Email" Label="Email nvarchar(256)" Category="NULL" Description="nvarchar(256)" />
+    <Node Id="AspNetUsers_NormalizedEmail" Label="NormalizedEmail nvarchar(256)" Category="NULL" Description="nvarchar(256)" />
+    <Node Id="AspNetUsers_EmailConfirmed" Label="EmailConfirmed bit" Category="NOT NULL" Description="bit" />
+    <Node Id="AspNetUsers_PasswordHash" Label="PasswordHash nvarchar(max)" Category="NULL" Description="nvarchar(max)" />
+    <Node Id="AspNetUsers_SecurityStamp" Label="SecurityStamp nvarchar(max)" Category="NULL" Description="nvarchar(max)" />
+    <Node Id="AspNetUsers_ConcurrencyStamp" Label="ConcurrencyStamp nvarchar(max)" Category="NULL" Description="nvarchar(max)" />
+    <Node Id="AspNetUsers_PhoneNumber" Label="PhoneNumber nvarchar(max)" Category="NULL" Description="nvarchar(max)" />
+    <Node Id="AspNetUsers_PhoneNumberConfirmed" Label="PhoneNumberConfirmed bit" Category="NOT NULL" Description="bit" />
+    <Node Id="AspNetUsers_TwoFactorEnabled" Label="TwoFactorEnabled bit" Category="NOT NULL" Description="bit" />
+    <Node Id="AspNetUsers_LockoutEnd" Label="LockoutEnd datetimeoffset" Category="NULL" Description="datetimeoffset" />
+    <Node Id="AspNetUsers_LockoutEnabled" Label="LockoutEnabled bit" Category="NOT NULL" Description="bit" />
+    <Node Id="AspNetUsers_AccessFailedCount" Label="AccessFailedCount int" Category="NOT NULL" Description="int" />
+    <Node Id="AspNetUserTokens" Label="AspNetUserTokens" Category="Table" Group="Collapsed" />
+    <Node Id="AspNetUserTokens_UserId" Label="UserId nvarchar(450)" Category="PK" Description="nvarchar(450)" />
+    <Node Id="AspNetUserTokens_LoginProvider" Label="LoginProvider nvarchar(450)" Category="PK" Description="nvarchar(450)" />
+    <Node Id="AspNetUserTokens_Name" Label="Name nvarchar(450)" Category="PK" Description="nvarchar(450)" />
+    <Node Id="AspNetUserTokens_Value" Label="Value nvarchar(max)" Category="NULL" Description="nvarchar(max)" />
+    <Node Id="ComplaintHistories" Label="ComplaintHistories" Category="Table" Group="Collapsed" />
+    <Node Id="ComplaintHistories_ComplainantId" Label="ComplainantId nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="ComplaintHistories_ComplainantType" Label="ComplainantType nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="ComplaintHistories_ComplaintType" Label="ComplaintType int" Category="NOT NULL" Description="int" />
+    <Node Id="ComplaintHistories_ComplaintMessage" Label="ComplaintMessage nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="ComplaintHistories_ComplaintTime" Label="ComplaintTime datetime2" Category="NOT NULL" Description="datetime2" />
+    <Node Id="ComplaintHistories_SolvedTime" Label="SolvedTime datetime2" Category="NOT NULL" Description="datetime2" />
+    <Node Id="ComplaintHistories_ComplaintReceiver" Label="ComplaintReceiver nvarchar(max)" Category="NULL" Description="nvarchar(max)" />
+    <Node Id="ComplaintHistories_HistoryId" Label="HistoryId int" Category="FK" Description="int" />
+    <Node Id="ComplaintHistories_ComplaintHistoryId" Label="ComplaintHistoryId int" Category="PK" Description="int" />
+    <Node Id="CustomerServices" Label="CustomerServices" Category="Table" Group="Collapsed" />
+    <Node Id="CustomerServices_Id" Label="Id nvarchar(450)" Category="PK" Description="nvarchar(450)" />
+    <Node Id="CustomerServices_NationalId" Label="NationalId nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="CustomerServices_Salary" Label="Salary float" Category="NOT NULL" Description="float" />
+    <Node Id="Drivers" Label="Drivers" Category="Table" Group="Collapsed" />
+    <Node Id="Drivers_Id" Label="Id nvarchar(450)" Category="PK" Description="nvarchar(450)" />
+    <Node Id="Drivers_NationalNumber" Label="NationalNumber nvarchar(max)" Category="NULL" Description="nvarchar(max)" />
+    <Node Id="EmailOTPs" Label="EmailOTPs" Category="Table" Group="Collapsed" />
+    <Node Id="EmailOTPs_OTPId" Label="OTPId nvarchar(450)" Category="PK" Description="nvarchar(450)" />
+    <Node Id="EmailOTPs_OTP" Label="OTP nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="EmailOTPs_Token" Label="Token nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="EmailOTPs_ExpiryTime" Label="ExpiryTime datetime2" Category="NOT NULL" Description="datetime2" />
+    <Node Id="EmailOTPs_UserId" Label="UserId nvarchar(450)" Category="FK" Description="nvarchar(450)" />
+    <Node Id="EmailOTPs_OTPType" Label="OTPType int" Category="NOT NULL" Description="int" />
+    <Node Id="Employees" Label="Employees" Category="Table" Group="Collapsed" />
+    <Node Id="Employees_Id" Label="Id nvarchar(450)" Category="PK" Description="nvarchar(450)" />
+    <Node Id="Employees_NationalID" Label="NationalID nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="Employees_Salary" Label="Salary float" Category="NOT NULL" Description="float" />
+    <Node Id="Employees_GarageId" Label="GarageId int" Category="FK" Description="int" />
+    <Node Id="Employees_DateOfJoining" Label="DateOfJoining datetime2" Category="NOT NULL" Description="datetime2" />
+    <Node Id="GarageAdmins" Label="GarageAdmins" Category="Table" Group="Collapsed" />
+    <Node Id="GarageAdmins_Id" Label="Id nvarchar(450)" Category="PK" Description="nvarchar(450)" />
+    <Node Id="GarageAdmins_AdminNationalID" Label="AdminNationalID nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="GarageAdmins_GarageId" Label="GarageId int" Category="FK" Description="int" />
+    <Node Id="garages" Label="garages" Category="Table" Group="Collapsed" />
+    <Node Id="garages_GarageId" Label="GarageId int" Category="PK" Description="int" />
+    <Node Id="garages_garageName" Label="garageName nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="garages_HourPrice" Label="HourPrice float" Category="NOT NULL" Description="float" />
+    <Node Id="garages_street" Label="street nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="garages_city" Label="city nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="garages_Longitude" Label="Longitude nvarchar(max)" Category="NULL" Description="nvarchar(max)" />
+    <Node Id="garages_Latitude" Label="Latitude nvarchar(max)" Category="NULL" Description="nvarchar(max)" />
+    <Node Id="garages_AvailableParkingSlots" Label="AvailableParkingSlots int" Category="NOT NULL" Description="int" />
+    <Node Id="garages_TotalParkingSlots" Label="TotalParkingSlots int" Category="NOT NULL" Description="int" />
+    <Node Id="Histories" Label="Histories" Category="Table" Group="Collapsed" />
+    <Node Id="Histories_HistoryId" Label="HistoryId int" Category="PK" Description="int" />
+    <Node Id="Histories_HistoryType" Label="HistoryType int" Category="NOT NULL" Description="int" />
+    <Node Id="Histories_Timestamp" Label="Timestamp datetime2" Category="NOT NULL" Description="datetime2" />
+    <Node Id="ParkingSessionHistories" Label="ParkingSessionHistories" Category="Table" Group="Collapsed" />
+    <Node Id="ParkingSessionHistories_ParkingSessionId" Label="ParkingSessionId int" Category="PK" Description="int" />
+    <Node Id="ParkingSessionHistories_VehicleId" Label="VehicleId int" Category="NULL" Description="int" />
+    <Node Id="ParkingSessionHistories_GarageId" Label="GarageId int" Category="NOT NULL" Description="int" />
+    <Node Id="ParkingSessionHistories_EnterTime" Label="EnterTime datetime2" Category="NOT NULL" Description="datetime2" />
+    <Node Id="ParkingSessionHistories_LeaveTime" Label="LeaveTime datetime2" Category="NOT NULL" Description="datetime2" />
+    <Node Id="ParkingSessionHistories_HourlyPrice" Label="HourlyPrice float" Category="NOT NULL" Description="float" />
+    <Node Id="ParkingSessionHistories_RequiredPayment" Label="RequiredPayment float" Category="NOT NULL" Description="float" />
+    <Node Id="ParkingSessionHistories_ActualPayment" Label="ActualPayment float" Category="NOT NULL" Description="float" />
+    <Node Id="ParkingSessionHistories_PaymentType" Label="PaymentType int" Category="NOT NULL" Description="int" />
+    <Node Id="ParkingSessionHistories_HistoryId" Label="HistoryId int" Category="FK" Description="int" />
+    <Node Id="ParkingSessionHistories_PlateLetters" Label="PlateLetters nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="ParkingSessionHistories_PlateNumbers" Label="PlateNumbers nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="ParkingSessionHistories_reserved" Label="reserved bit" Category="NOT NULL" Description="bit" />
+    <Node Id="ParkingSessionHistories_StaffId" Label="StaffId nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="parkingSessions" Label="parkingSessions" Category="Table" Group="Collapsed" />
+    <Node Id="parkingSessions_ParkingSessionId" Label="ParkingSessionId int" Category="PK" Description="int" />
+    <Node Id="parkingSessions_Cost" Label="Cost float" Category="NOT NULL" Description="float" />
+    <Node Id="parkingSessions_StartTime" Label="StartTime datetime2" Category="NOT NULL" Description="datetime2" />
+    <Node Id="parkingSessions_VehicleID" Label="VehicleID int" Category="FK" Description="int" />
+    <Node Id="parkingSessions_GarageID" Label="GarageID int" Category="FK" Description="int" />
+    <Node Id="parkingSessions_IsRegistered" Label="IsRegistered bit" Category="NOT NULL" Description="bit" />
+    <Node Id="parkingSessions_PlateLetters" Label="PlateLetters nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="parkingSessions_PlateNumbers" Label="PlateNumbers nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="parkingSessions_IsReserved" Label="IsReserved bit" Category="NOT NULL" Description="bit" />
+    <Node Id="PlateRecognitionHistory" Label="PlateRecognitionHistory" Category="Table" Group="Collapsed" />
+    <Node Id="PlateRecognitionHistory_ModuleConfidenceId" Label="ModuleConfidenceId int" Category="PK" Description="int" />
+    <Node Id="PlateRecognitionHistory_LettersConfidence" Label="LettersConfidence float" Category="NOT NULL" Description="float" />
+    <Node Id="PlateRecognitionHistory_objectConfidence" Label="objectConfidence float" Category="NOT NULL" Description="float" />
+    <Node Id="PlateRecognitionHistory_HistoryId" Label="HistoryId int" Category="FK" Description="int" />
+    <Node Id="RefreshToken" Label="RefreshToken" Category="Table" Group="Collapsed" />
+    <Node Id="RefreshToken_ApplicationUserId" Label="ApplicationUserId nvarchar(450)" Category="PK" Description="nvarchar(450)" />
+    <Node Id="RefreshToken_Id" Label="Id int" Category="PK" Description="int" />
+    <Node Id="RefreshToken_Token" Label="Token nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="RefreshToken_ExpiresOn" Label="ExpiresOn datetime2" Category="NOT NULL" Description="datetime2" />
+    <Node Id="RefreshToken_CreatedOn" Label="CreatedOn datetime2" Category="NOT NULL" Description="datetime2" />
+    <Node Id="RefreshToken_RevokedOn" Label="RevokedOn datetime2" Category="NULL" Description="datetime2" />
+    <Node Id="Reports" Label="Reports" Category="Table" Group="Collapsed" />
+    <Node Id="Reports_ReportId" Label="ReportId int" Category="PK" Description="int" />
+    <Node Id="Reports_IsFixed" Label="IsFixed bit" Category="NOT NULL" Description="bit" />
+    <Node Id="Reports_ReportType" Label="ReportType int" Category="NOT NULL" Description="int" />
+    <Node Id="Reports_ReportMessege" Label="ReportMessege nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="Reports_CustomerServiceId" Label="CustomerServiceId nvarchar(450)" Category="FK" Description="nvarchar(450)" />
+    <Node Id="Reports_ReportReceiver" Label="ReportReceiver nvarchar(max)" Category="NULL" Description="nvarchar(max)" />
+    <Node Id="Reports_ReporterId" Label="ReporterId nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="Reports_Timestamp" Label="Timestamp datetime2" Category="NOT NULL" Description="datetime2" />
+    <Node Id="ReservationHistories" Label="ReservationHistories" Category="Table" Group="Collapsed" />
+    <Node Id="ReservationHistories_ReservationId" Label="ReservationId int" Category="PK" Description="int" />
+    <Node Id="ReservationHistories_DriverId" Label="DriverId nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="ReservationHistories_GarageId" Label="GarageId int" Category="NOT NULL" Description="int" />
+    <Node Id="ReservationHistories_ReservationTime" Label="ReservationTime datetime2" Category="NOT NULL" Description="datetime2" />
+    <Node Id="ReservationHistories_UsedOrNot" Label="UsedOrNot bit" Category="NOT NULL" Description="bit" />
+    <Node Id="ReservationHistories_HistoryId" Label="HistoryId int" Category="FK" Description="int" />
+    <Node Id="Reservations" Label="Reservations" Category="Table" Group="Collapsed" />
+    <Node Id="Reservations_ReservationId" Label="ReservationId int" Category="PK" Description="int" />
+    <Node Id="Reservations_GarageId" Label="GarageId int" Category="FK" Description="int" />
+    <Node Id="Reservations_DateTime" Label="DateTime datetime2" Category="NOT NULL" Description="datetime2" />
+    <Node Id="Reservations_DriverID" Label="DriverID nvarchar(450)" Category="FK" Description="nvarchar(450)" />
+    <Node Id="StaffSalaryHistories" Label="StaffSalaryHistories" Category="Table" Group="Collapsed" />
+    <Node Id="StaffSalaryHistories_StaffSalaryId" Label="StaffSalaryId int" Category="PK" Description="int" />
+    <Node Id="StaffSalaryHistories_StaffName" Label="StaffName nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="StaffSalaryHistories_CollectTime" Label="CollectTime datetime2" Category="NOT NULL" Description="datetime2" />
+    <Node Id="StaffSalaryHistories_Amount" Label="Amount float" Category="NOT NULL" Description="float" />
+    <Node Id="StaffSalaryHistories_HistoryId" Label="HistoryId int" Category="FK" Description="int" />
+    <Node Id="StaffSalaryHistories_EmployeeId" Label="EmployeeId nvarchar(450)" Category="FK" Description="nvarchar(450)" />
+    <Node Id="StaffSalaryHistories_StaffEmail" Label="StaffEmail nvarchar(max)" Category="NOT NULL" Description="nvarchar(max)" />
+    <Node Id="vehicles" Label="vehicles" Category="Table" Group="Collapsed" />
+    <Node Id="vehicles_VehicleId" Label="VehicleId int" Category="PK" Description="int" />
+    <Node Id="vehicles_PlateLetters" Label="PlateLetters nvarchar(4)" Category="NOT NULL" Description="nvarchar(4)" />
+    <Node Id="vehicles_PlateNumbers" Label="PlateNumbers nvarchar(4)" Category="NOT NULL" Description="nvarchar(4)" />
+    <Node Id="vehicles_DriverId" Label="DriverId nvarchar(450)" Category="FK" Description="nvarchar(450)" />
+  </Nodes>
+  <Links>
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="dbo" Target="AspNetRoleClaims" Category="Contains" />
+    <Link Source="AspNetRoleClaims" Target="AspNetRoleClaims_Id" Category="Contains" />
+    <Link Source="AspNetRoleClaims" Target="AspNetRoleClaims_RoleId" Category="Contains" />
+    <Link Source="AspNetRoleClaims" Target="AspNetRoleClaims_ClaimType" Category="Contains" />
+    <Link Source="AspNetRoleClaims" Target="AspNetRoleClaims_ClaimValue" Category="Contains" />
+    <Link Source="AspNetRoleClaims_RoleId" Target="AspNetRoles_Id" Label="FK_AspNetRoleClaims_AspNetRoles_RoleId" Category="Foreign Key" />
+    <Link Source="dbo" Target="AspNetRoles" Category="Contains" />
+    <Link Source="AspNetRoles" Target="AspNetRoles_Id" Category="Contains" />
+    <Link Source="AspNetRoles" Target="AspNetRoles_Name" Category="Contains" />
+    <Link Source="AspNetRoles" Target="AspNetRoles_NormalizedName" Category="Contains" />
+    <Link Source="AspNetRoles" Target="AspNetRoles_ConcurrencyStamp" Category="Contains" />
+    <Link Source="dbo" Target="AspNetUserClaims" Category="Contains" />
+    <Link Source="AspNetUserClaims" Target="AspNetUserClaims_Id" Category="Contains" />
+    <Link Source="AspNetUserClaims" Target="AspNetUserClaims_UserId" Category="Contains" />
+    <Link Source="AspNetUserClaims" Target="AspNetUserClaims_ClaimType" Category="Contains" />
+    <Link Source="AspNetUserClaims" Target="AspNetUserClaims_ClaimValue" Category="Contains" />
+    <Link Source="AspNetUserClaims_UserId" Target="AspNetUsers_Id" Label="FK_AspNetUserClaims_AspNetUsers_UserId" Category="Foreign Key" />
+    <Link Source="dbo" Target="AspNetUserLogins" Category="Contains" />
+    <Link Source="AspNetUserLogins" Target="AspNetUserLogins_LoginProvider" Category="Contains" />
+    <Link Source="AspNetUserLogins" Target="AspNetUserLogins_ProviderKey" Category="Contains" />
+    <Link Source="AspNetUserLogins" Target="AspNetUserLogins_ProviderDisplayName" Category="Contains" />
+    <Link Source="AspNetUserLogins" Target="AspNetUserLogins_UserId" Category="Contains" />
+    <Link Source="AspNetUserLogins_UserId" Target="AspNetUsers_Id" Label="FK_AspNetUserLogins_AspNetUsers_UserId" Category="Foreign Key" />
+    <Link Source="dbo" Target="AspNetUserRoles" Category="Contains" />
+    <Link Source="AspNetUserRoles" Target="AspNetUserRoles_UserId" Category="Contains" />
+    <Link Source="AspNetUserRoles" Target="AspNetUserRoles_RoleId" Category="Contains" />
+    <Link Source="AspNetUserRoles_RoleId" Target="AspNetRoles_Id" Label="FK_AspNetUserRoles_AspNetRoles_RoleId" Category="Foreign Key" />
+    <Link Source="AspNetUserRoles_UserId" Target="AspNetUsers_Id" Label="FK_AspNetUserRoles_AspNetUsers_UserId" Category="Foreign Key" />
+    <Link Source="dbo" Target="AspNetUsers" Category="Contains" />
+    <Link Source="AspNetUsers" Target="AspNetUsers_Id" Category="Contains" />
+    <Link Source="AspNetUsers" Target="AspNetUsers_FullName" Category="Contains" />
+    <Link Source="AspNetUsers" Target="AspNetUsers_UserName" Category="Contains" />
+    <Link Source="AspNetUsers" Target="AspNetUsers_NormalizedUserName" Category="Contains" />
+    <Link Source="AspNetUsers" Target="AspNetUsers_Email" Category="Contains" />
+    <Link Source="AspNetUsers" Target="AspNetUsers_NormalizedEmail" Category="Contains" />
+    <Link Source="AspNetUsers" Target="AspNetUsers_EmailConfirmed" Category="Contains" />
+    <Link Source="AspNetUsers" Target="AspNetUsers_PasswordHash" Category="Contains" />
+    <Link Source="AspNetUsers" Target="AspNetUsers_SecurityStamp" Category="Contains" />
+    <Link Source="AspNetUsers" Target="AspNetUsers_ConcurrencyStamp" Category="Contains" />
+    <Link Source="AspNetUsers" Target="AspNetUsers_PhoneNumber" Category="Contains" />
+    <Link Source="AspNetUsers" Target="AspNetUsers_PhoneNumberConfirmed" Category="Contains" />
+    <Link Source="AspNetUsers" Target="AspNetUsers_TwoFactorEnabled" Category="Contains" />
+    <Link Source="AspNetUsers" Target="AspNetUsers_LockoutEnd" Category="Contains" />
+    <Link Source="AspNetUsers" Target="AspNetUsers_LockoutEnabled" Category="Contains" />
+    <Link Source="AspNetUsers" Target="AspNetUsers_AccessFailedCount" Category="Contains" />
+    <Link Source="dbo" Target="AspNetUserTokens" Category="Contains" />
+    <Link Source="AspNetUserTokens" Target="AspNetUserTokens_UserId" Category="Contains" />
+    <Link Source="AspNetUserTokens" Target="AspNetUserTokens_LoginProvider" Category="Contains" />
+    <Link Source="AspNetUserTokens" Target="AspNetUserTokens_Name" Category="Contains" />
+    <Link Source="AspNetUserTokens" Target="AspNetUserTokens_Value" Category="Contains" />
+    <Link Source="AspNetUserTokens_UserId" Target="AspNetUsers_Id" Label="FK_AspNetUserTokens_AspNetUsers_UserId" Category="Foreign Key" />
+    <Link Source="dbo" Target="ComplaintHistories" Category="Contains" />
+    <Link Source="ComplaintHistories" Target="ComplaintHistories_ComplainantId" Category="Contains" />
+    <Link Source="ComplaintHistories" Target="ComplaintHistories_ComplainantType" Category="Contains" />
+    <Link Source="ComplaintHistories" Target="ComplaintHistories_ComplaintType" Category="Contains" />
+    <Link Source="ComplaintHistories" Target="ComplaintHistories_ComplaintMessage" Category="Contains" />
+    <Link Source="ComplaintHistories" Target="ComplaintHistories_ComplaintTime" Category="Contains" />
+    <Link Source="ComplaintHistories" Target="ComplaintHistories_SolvedTime" Category="Contains" />
+    <Link Source="ComplaintHistories" Target="ComplaintHistories_ComplaintReceiver" Category="Contains" />
+    <Link Source="ComplaintHistories" Target="ComplaintHistories_HistoryId" Category="Contains" />
+    <Link Source="ComplaintHistories" Target="ComplaintHistories_ComplaintHistoryId" Category="Contains" />
+    <Link Source="ComplaintHistories_HistoryId" Target="Histories_HistoryId" Label="FK_ComplaintHistories_Histories_HistoryId" Category="Foreign Key" />
+    <Link Source="dbo" Target="CustomerServices" Category="Contains" />
+    <Link Source="CustomerServices" Target="CustomerServices_Id" Category="Contains" />
+    <Link Source="CustomerServices" Target="CustomerServices_NationalId" Category="Contains" />
+    <Link Source="CustomerServices" Target="CustomerServices_Salary" Category="Contains" />
+    <Link Source="CustomerServices_Id" Target="AspNetUsers_Id" Label="FK_CustomerServices_AspNetUsers_Id" Category="Foreign Key" />
+    <Link Source="dbo" Target="Drivers" Category="Contains" />
+    <Link Source="Drivers" Target="Drivers_Id" Category="Contains" />
+    <Link Source="Drivers" Target="Drivers_NationalNumber" Category="Contains" />
+    <Link Source="Drivers_Id" Target="AspNetUsers_Id" Label="FK_Drivers_AspNetUsers_Id" Category="Foreign Key" />
+    <Link Source="dbo" Target="EmailOTPs" Category="Contains" />
+    <Link Source="EmailOTPs" Target="EmailOTPs_OTPId" Category="Contains" />
+    <Link Source="EmailOTPs" Target="EmailOTPs_OTP" Category="Contains" />
+    <Link Source="EmailOTPs" Target="EmailOTPs_Token" Category="Contains" />
+    <Link Source="EmailOTPs" Target="EmailOTPs_ExpiryTime" Category="Contains" />
+    <Link Source="EmailOTPs" Target="EmailOTPs_UserId" Category="Contains" />
+    <Link Source="EmailOTPs" Target="EmailOTPs_OTPType" Category="Contains" />
+    <Link Source="EmailOTPs_UserId" Target="AspNetUsers_Id" Label="FK_EmailOTPs_AspNetUsers_UserId" Category="Foreign Key" />
+    <Link Source="dbo" Target="Employees" Category="Contains" />
+    <Link Source="Employees" Target="Employees_Id" Category="Contains" />
+    <Link Source="Employees" Target="Employees_NationalID" Category="Contains" />
+    <Link Source="Employees" Target="Employees_Salary" Category="Contains" />
+    <Link Source="Employees" Target="Employees_GarageId" Category="Contains" />
+    <Link Source="Employees" Target="Employees_DateOfJoining" Category="Contains" />
+    <Link Source="Employees_Id" Target="AspNetUsers_Id" Label="FK_Employees_AspNetUsers_Id" Category="Foreign Key" />
+    <Link Source="Employees_GarageId" Target="garages_GarageId" Label="FK_Employees_garages_GarageId" Category="Foreign Key" />
+    <Link Source="dbo" Target="GarageAdmins" Category="Contains" />
+    <Link Source="GarageAdmins" Target="GarageAdmins_Id" Category="Contains" />
+    <Link Source="GarageAdmins" Target="GarageAdmins_AdminNationalID" Category="Contains" />
+    <Link Source="GarageAdmins" Target="GarageAdmins_GarageId" Category="Contains" />
+    <Link Source="GarageAdmins_Id" Target="AspNetUsers_Id" Label="FK_GarageAdmins_AspNetUsers_Id" Category="Foreign Key" />
+    <Link Source="GarageAdmins_GarageId" Target="garages_GarageId" Label="FK_GarageAdmins_garages_GarageId" Category="Foreign Key" />
+    <Link Source="dbo" Target="garages" Category="Contains" />
+    <Link Source="garages" Target="garages_GarageId" Category="Contains" />
+    <Link Source="garages" Target="garages_garageName" Category="Contains" />
+    <Link Source="garages" Target="garages_HourPrice" Category="Contains" />
+    <Link Source="garages" Target="garages_street" Category="Contains" />
+    <Link Source="garages" Target="garages_city" Category="Contains" />
+    <Link Source="garages" Target="garages_Longitude" Category="Contains" />
+    <Link Source="garages" Target="garages_Latitude" Category="Contains" />
+    <Link Source="garages" Target="garages_AvailableParkingSlots" Category="Contains" />
+    <Link Source="garages" Target="garages_TotalParkingSlots" Category="Contains" />
+    <Link Source="dbo" Target="Histories" Category="Contains" />
+    <Link Source="Histories" Target="Histories_HistoryId" Category="Contains" />
+    <Link Source="Histories" Target="Histories_HistoryType" Category="Contains" />
+    <Link Source="Histories" Target="Histories_Timestamp" Category="Contains" />
+    <Link Source="dbo" Target="ParkingSessionHistories" Category="Contains" />
+    <Link Source="ParkingSessionHistories" Target="ParkingSessionHistories_ParkingSessionId" Category="Contains" />
+    <Link Source="ParkingSessionHistories" Target="ParkingSessionHistories_VehicleId" Category="Contains" />
+    <Link Source="ParkingSessionHistories" Target="ParkingSessionHistories_GarageId" Category="Contains" />
+    <Link Source="ParkingSessionHistories" Target="ParkingSessionHistories_EnterTime" Category="Contains" />
+    <Link Source="ParkingSessionHistories" Target="ParkingSessionHistories_LeaveTime" Category="Contains" />
+    <Link Source="ParkingSessionHistories" Target="ParkingSessionHistories_HourlyPrice" Category="Contains" />
+    <Link Source="ParkingSessionHistories" Target="ParkingSessionHistories_RequiredPayment" Category="Contains" />
+    <Link Source="ParkingSessionHistories" Target="ParkingSessionHistories_ActualPayment" Category="Contains" />
+    <Link Source="ParkingSessionHistories" Target="ParkingSessionHistories_PaymentType" Category="Contains" />
+    <Link Source="ParkingSessionHistories" Target="ParkingSessionHistories_HistoryId" Category="Contains" />
+    <Link Source="ParkingSessionHistories" Target="ParkingSessionHistories_PlateLetters" Category="Contains" />
+    <Link Source="ParkingSessionHistories" Target="ParkingSessionHistories_PlateNumbers" Category="Contains" />
+    <Link Source="ParkingSessionHistories" Target="ParkingSessionHistories_reserved" Category="Contains" />
+    <Link Source="ParkingSessionHistories" Target="ParkingSessionHistories_StaffId" Category="Contains" />
+    <Link Source="ParkingSessionHistories_HistoryId" Target="Histories_HistoryId" Label="FK_ParkingSessionHistories_Histories_HistoryId" Category="Foreign Key" />
+    <Link Source="dbo" Target="parkingSessions" Category="Contains" />
+    <Link Source="parkingSessions" Target="parkingSessions_ParkingSessionId" Category="Contains" />
+    <Link Source="parkingSessions" Target="parkingSessions_Cost" Category="Contains" />
+    <Link Source="parkingSessions" Target="parkingSessions_StartTime" Category="Contains" />
+    <Link Source="parkingSessions" Target="parkingSessions_VehicleID" Category="Contains" />
+    <Link Source="parkingSessions" Target="parkingSessions_GarageID" Category="Contains" />
+    <Link Source="parkingSessions" Target="parkingSessions_IsRegistered" Category="Contains" />
+    <Link Source="parkingSessions" Target="parkingSessions_PlateLetters" Category="Contains" />
+    <Link Source="parkingSessions" Target="parkingSessions_PlateNumbers" Category="Contains" />
+    <Link Source="parkingSessions" Target="parkingSessions_IsReserved" Category="Contains" />
+    <Link Source="parkingSessions_GarageID" Target="garages_GarageId" Label="FK_parkingSessions_garages_GarageID" Category="Foreign Key" />
+    <Link Source="parkingSessions_VehicleID" Target="vehicles_VehicleId" Label="FK_parkingSessions_vehicles_VehicleID" Category="Foreign Key" />
+    <Link Source="dbo" Target="PlateRecognitionHistory" Category="Contains" />
+    <Link Source="PlateRecognitionHistory" Target="PlateRecognitionHistory_ModuleConfidenceId" Category="Contains" />
+    <Link Source="PlateRecognitionHistory" Target="PlateRecognitionHistory_LettersConfidence" Category="Contains" />
+    <Link Source="PlateRecognitionHistory" Target="PlateRecognitionHistory_objectConfidence" Category="Contains" />
+    <Link Source="PlateRecognitionHistory" Target="PlateRecognitionHistory_HistoryId" Category="Contains" />
+    <Link Source="PlateRecognitionHistory_HistoryId" Target="Histories_HistoryId" Label="FK_PlateRecognitionHistory_Histories_HistoryId" Category="Foreign Key" />
+    <Link Source="dbo" Target="RefreshToken" Category="Contains" />
+    <Link Source="RefreshToken" Target="RefreshToken_ApplicationUserId" Category="Contains" />
+    <Link Source="RefreshToken" Target="RefreshToken_Id" Category="Contains" />
+    <Link Source="RefreshToken" Target="RefreshToken_Token" Category="Contains" />
+    <Link Source="RefreshToken" Target="RefreshToken_ExpiresOn" Category="Contains" />
+    <Link Source="RefreshToken" Target="RefreshToken_CreatedOn" Category="Contains" />
+    <Link Source="RefreshToken" Target="RefreshToken_RevokedOn" Category="Contains" />
+    <Link Source="RefreshToken_ApplicationUserId" Target="AspNetUsers_Id" Label="FK_RefreshToken_AspNetUsers_ApplicationUserId" Category="Foreign Key" />
+    <Link Source="dbo" Target="Reports" Category="Contains" />
+    <Link Source="Reports" Target="Reports_ReportId" Category="Contains" />
+    <Link Source="Reports" Target="Reports_IsFixed" Category="Contains" />
+    <Link Source="Reports" Target="Reports_ReportType" Category="Contains" />
+    <Link Source="Reports" Target="Reports_ReportMessege" Category="Contains" />
+    <Link Source="Reports" Target="Reports_CustomerServiceId" Category="Contains" />
+    <Link Source="Reports" Target="Reports_ReportReceiver" Category="Contains" />
+    <Link Source="Reports" Target="Reports_ReporterId" Category="Contains" />
+    <Link Source="Reports" Target="Reports_Timestamp" Category="Contains" />
+    <Link Source="Reports_CustomerServiceId" Target="CustomerServices_Id" Label="FK_Reports_CustomerServices_CustomerServiceId" Category="Foreign Key" />
+    <Link Source="dbo" Target="ReservationHistories" Category="Contains" />
+    <Link Source="ReservationHistories" Target="ReservationHistories_ReservationId" Category="Contains" />
+    <Link Source="ReservationHistories" Target="ReservationHistories_DriverId" Category="Contains" />
+    <Link Source="ReservationHistories" Target="ReservationHistories_GarageId" Category="Contains" />
+    <Link Source="ReservationHistories" Target="ReservationHistories_ReservationTime" Category="Contains" />
+    <Link Source="ReservationHistories" Target="ReservationHistories_UsedOrNot" Category="Contains" />
+    <Link Source="ReservationHistories" Target="ReservationHistories_HistoryId" Category="Contains" />
+    <Link Source="ReservationHistories_HistoryId" Target="Histories_HistoryId" Label="FK_ReservationHistories_Histories_HistoryId" Category="Foreign Key" />
+    <Link Source="dbo" Target="Reservations" Category="Contains" />
+    <Link Source="Reservations" Target="Reservations_ReservationId" Category="Contains" />
+    <Link Source="Reservations" Target="Reservations_GarageId" Category="Contains" />
+    <Link Source="Reservations" Target="Reservations_DateTime" Category="Contains" />
+    <Link Source="Reservations" Target="Reservations_DriverID" Category="Contains" />
+    <Link Source="Reservations_DriverID" Target="Drivers_Id" Label="FK_Reservations_Drivers_DriverID" Category="Foreign Key" />
+    <Link Source="Reservations_GarageId" Target="garages_GarageId" Label="FK_Reservations_garages_GarageId" Category="Foreign Key" />
+    <Link Source="dbo" Target="StaffSalaryHistories" Category="Contains" />
+    <Link Source="StaffSalaryHistories" Target="StaffSalaryHistories_StaffSalaryId" Category="Contains" />
+    <Link Source="StaffSalaryHistories" Target="StaffSalaryHistories_StaffName" Category="Contains" />
+    <Link Source="StaffSalaryHistories" Target="StaffSalaryHistories_CollectTime" Category="Contains" />
+    <Link Source="StaffSalaryHistories" Target="StaffSalaryHistories_Amount" Category="Contains" />
+    <Link Source="StaffSalaryHistories" Target="StaffSalaryHistories_HistoryId" Category="Contains" />
+    <Link Source="StaffSalaryHistories" Target="StaffSalaryHistories_EmployeeId" Category="Contains" />
+    <Link Source="StaffSalaryHistories" Target="StaffSalaryHistories_StaffEmail" Category="Contains" />
+    <Link Source="StaffSalaryHistories_EmployeeId" Target="Employees_Id" Label="FK_StaffSalaryHistories_Employees_EmployeeId" Category="Foreign Key" />
+    <Link Source="StaffSalaryHistories_HistoryId" Target="Histories_HistoryId" Label="FK_StaffSalaryHistories_Histories_HistoryId" Category="Foreign Key" />
+    <Link Source="dbo" Target="vehicles" Category="Contains" />
+    <Link Source="vehicles" Target="vehicles_VehicleId" Category="Contains" />
+    <Link Source="vehicles" Target="vehicles_PlateLetters" Category="Contains" />
+    <Link Source="vehicles" Target="vehicles_PlateNumbers" Category="Contains" />
+    <Link Source="vehicles" Target="vehicles_DriverId" Category="Contains" />
+    <Link Source="vehicles_DriverId" Target="Drivers_Id" Label="FK_vehicles_Drivers_DriverId" Category="Foreign Key" />
+  </Links>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Table" ValueLabel="True">
+      <Condition Expression="HasCategory('Table')" />
+      <Setter Property="Background" Value="#FFC0C0C0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Schema" ValueLabel="True">
+      <Condition Expression="HasCategory('Schema')" />
+      <Setter Property="Background" Value="#FF7F9169" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="PK" ValueLabel="True">
+      <Condition Expression="HasCategory('PK')" />
+      <Setter Property="Background" Value="#FF008000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="NULL" ValueLabel="True">
+      <Condition Expression="HasCategory('NULL')" />
+      <Setter Property="Background" Value="#FF808040" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="FK" ValueLabel="True">
+      <Condition Expression="HasCategory('FK')" />
+      <Setter Property="Background" Value="#FF8080FF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="NOT NULL" ValueLabel="True">
+      <Condition Expression="HasCategory('NOT NULL')" />
+      <Setter Property="Background" Value="#FFC0A000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Database" ValueLabel="True">
+      <Condition Expression="HasCategory('Database')" />
+      <Setter Property="Background" Value="#FFFFFFFF" />
+    </Style>
+  </Styles>
+</DirectedGraph>
